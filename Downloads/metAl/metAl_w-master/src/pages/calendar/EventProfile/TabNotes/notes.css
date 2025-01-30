@@ -1,0 +1,80 @@
+.notes-container{
+    overflow-x: scroll;
+}
+.toast-username{
+    margin-left: 10px;
+    color: black;
+    font-size: 14px;
+    text-transform:capitalize;
+}
+.toast-date{
+    margin-left:25px
+}
+.toast-avatar{
+    width: 25px;
+}
+.toast-note{
+    font-size: 15px;
+    text-transform:capitalize;
+}
+
+#notes-accordion{
+    margin-top: 10px;
+}
+.note-accordian-header{
+    padding: 0px 20px 0px 20px;
+    height: 50px;
+    width: 100%;
+    border: solid 1px lightgrey;
+    cursor: pointer;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 15px;
+    background-color: lightgrey;
+    border-radius: 3px;
+}
+.note-accordian-title{
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    width: 80%;
+    font-size: 15px;
+    text-transform: capitalize;
+}
+.note-accordian-date{
+    color: grey;
+    margin-left: 15px;
+}
+.note-toggle{
+    height: 50px;
+    width: 5%;
+    font-size: 20px;
+    float: right;
+    line-height:50px ;
+}
+.notes-card-container{
+    width: 100%;
+    overflow: auto;
+    overflow-x:hidden;
+
+}
+#toast{
+    max-width: 500px;
+}
+.notes-link{
+    margin-left: -12px;
+    font-weight: lighter;
+}
+.note-link{
+    cursor: pointer;
+}
+.note-reply-quote{
+    background-color: lightgrey;
+    width: 80%;
+    border-radius: 5px;
+    padding: 5px 5px;
+    font-size: 15px;
+    margin: 10px 0px;
+    opacity: 0.5;
+}

@@ -1,0 +1,43 @@
+.fc-event {
+  background-color: white;
+  width: 105%
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+/* .my-event{
+  width: 50%;
+} */
+/*# sourceMappingURL=c.css.map */
+
+
+
+.fc tr td:nth-child(2) {
+  height: 2.5rem;
+}
+
+.past-event {
+  background-color: #b3b3b3;
+}
+
+.future-event {
+  background-color: #dddd99;
+}
+
+/* Add this CSS to your styles */
+.time-indicator {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+.scroll-container {
+  position: relative;
+  overflow: scroll;
+}
+.nav-gap{
+  padding-right: 10px;
+}

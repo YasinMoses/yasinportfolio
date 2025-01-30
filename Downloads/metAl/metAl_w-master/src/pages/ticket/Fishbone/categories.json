@@ -1,0 +1,10 @@
+{
+    "Categories": {
+        "bug-error": [],
+        "complaint": [],
+        "disconnection": [],
+        "feature-request": [],
+        "sales": [],
+        "other": []
+      }
+}

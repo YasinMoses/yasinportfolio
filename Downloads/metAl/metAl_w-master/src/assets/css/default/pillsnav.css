@@ -1,0 +1,157 @@
+/* not active */
+.nav-pills .Active .nav-link:not(.active) {
+    background-color: rgba(46, 204, 113, 0.2);
+}
+
+.nav-pills .Archived .nav-link:not(.active) {
+    background-color: rgba(189, 195, 199, 0.2);
+    color: black;	
+}
+
+.nav-pills .Banned .nav-link:not(.active) {
+    background-color: rgba(255, 0, 0, 0.2);
+    color: white;
+}
+
+.nav-pills .Deleted .nav-link:not(.active) {
+    background-color: rgba(0, 0, 0, 0.3);
+    color: white;
+}
+
+.nav-pills .All .nav-link:not(.active) {
+    background-color: rgba(3, 138, 255, 0.2);
+    color: white;
+}
+
+.nav-pills .Tab1 .nav-link:not(.active) {
+    background-color: rgba(191, 63, 59, 0.2);
+    color: white;
+}
+.nav-pills .Tab2 .nav-link:not(.active) {
+    background-color: rgba(191, 151, 59, 0.2);
+    color: white;
+}
+.nav-pills .Tab3 .nav-link:not(.active) {
+    background-color: rgba(239, 227, 18, 0.2);
+    color: white;
+}
+.nav-pills .Tab4 .nav-link:not(.active) {
+    background-color: rgba(155, 202, 45, 0.2);
+    color: white;
+}
+.nav-pills .Tab5 .nav-link:not(.active) {
+    background-color: rgba(45, 202, 63, 0.2);
+    color: white;
+}
+.nav-pills .Tab6 .nav-link:not(.active) {
+    background-color: rgba(45, 202, 151, 0.2);
+    color: white;
+}
+.nav-pills .Tab7 .nav-link:not(.active) {
+    background-color: rgba(45, 184, 202, 0.2);
+    color: white;
+}
+.nav-pills .Tab8 .nav-link:not(.active) {
+    background-color: rgba(45, 89, 202, 0.2);
+    color: white;
+}
+.nav-pills .Tab9 .nav-link:not(.active) {
+    background-color: rgba(79, 45, 202, 0.2);
+    color: white;
+}
+.nav-pills .Reviews .nav-link:not(.active) {
+    background-color: rgba(115, 59, 129, 0.2);
+    color: white;
+}
+.nav-pills .Notes .nav-link:not(.active) {
+    background-color: rgba(202, 45, 102, 0.2);
+    color: white;
+}
+.nav-pills .Attachments .nav-link:not(.active) {
+    background-color: rgba(76, 24, 89, 0.2);
+    color: white;
+}
+.nav-pills .Comments .nav-link:not(.active) {
+    background-color: rgba(82, 142, 127, 0.2);
+    color: white;
+}
+
+
+/* active (faded) */
+.nav-pills .Tab1 .nav-link {
+    background-color: rgba(191, 63, 59, 1);
+    color: white;
+}
+.nav-pills .Tab2 .nav-link {
+    background-color: rgba(191, 151, 59, 1);
+    color: white;
+}
+.nav-pills .Tab3 .nav-link {
+    background-color: rgba(239, 227, 18, 1);
+    color: black;
+}
+.nav-pills .Tab4 .nav-link {
+    background-color: rgba(155, 202, 45, 1);
+    color: black;
+}
+.nav-pills .Tab5 .nav-link {
+    background-color: rgba(45, 202, 63, 1);
+    color: white;
+}
+.nav-pills .Tab6 .nav-link {
+    background-color: rgba(45, 202, 151, 1);
+    color: white;
+}
+.nav-pills .Tab7 .nav-link {
+    background-color: rgba(45, 184, 202, 1);
+    color: white;
+}
+.nav-pills .Tab8 .nav-link {
+    background-color: rgba(45, 89, 202, 1);
+    color: white;
+}
+.nav-pills .Tab9 .nav-link {
+    background-color: rgba(79, 45, 202, 1);
+    color: white;
+}
+.nav-pills .Reviews .nav-link {
+    background-color: rgba(115, 59, 129, 1);
+    color: white;
+}
+.nav-pills .Notes .nav-link {
+    background-color: rgba(202, 45, 102, 1);
+    color: white;
+}
+.nav-pills .Attachments .nav-link {
+    background-color: rgba(76, 24, 89, 1);
+    color: white;
+}
+.nav-pills .Comments .nav-link {
+    background-color: rgba(82, 142, 127, 1);
+    color: white;
+}
+
+.nav-pills .Active .nav-link {
+    background-color: rgba(46, 204, 113, 1);
+    color: white;
+}
+
+.nav-pills .Archived .nav-link {
+    background-color: rgba(189, 195, 199, 1);
+    color: white;
+}
+
+
+.nav-pills .Banned .nav-link {
+    background-color: rgba(255, 0, 0, 1);
+    color: white;
+}
+
+.nav-pills .Deleted .nav-link {
+    background-color: rgba(0, 0, 0, 1);
+}
+
+.nav-pills .All .nav-link {
+    background-color: rgba(3, 138, 255, 1);
+    color: white;
+}

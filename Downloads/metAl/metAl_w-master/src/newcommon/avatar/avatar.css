@@ -1,0 +1,29 @@
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 60vh;
+  flex-direction: column;
+}
+.user-profile-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: brown;
+  color: #ffffff;
+  font-size: 30px;
+ 
+
+}
+.user-profile-image_image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+  font-size: 30px;
+  border-radius: 50%;
+  font-weight: 800;
+}

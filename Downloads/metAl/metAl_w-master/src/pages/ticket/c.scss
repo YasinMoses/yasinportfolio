@@ -1,0 +1,79 @@
+.fc .fc-toolbar.fc-header-toolbar {
+  background-color: white;
+  padding: 10px;
+  margin-bottom: 0;
+  box-shadow: none;
+}
+.fc .fc-button-group > .fc-button,
+.fc .fc-button:not(:disabled),
+.fc .fc-button-primary {
+  background-color: white;
+  color: black;
+  border: none !important;
+  outline: none !important;
+  border-color: white;
+  box-shadow: none;
+}
+
+.fc .fc-button-primary:disabled {
+  background-color: white;
+  color: gray;
+  border: none !important;
+  outline: none !important;
+  box-shadow: none;
+}
+
+.fc .fc-button-group > .fc-button:focus,
+.fc .fc-button-group > .fc-button:active,
+.fc .fc-button-group > .fc-button.fc-button-active {
+  background-color: white;
+  color: rgb(32, 166, 255);
+  font-weight: bold;
+  border-color: white;
+  border: none !important;
+  outline: none !important;
+  box-shadow: none;
+}
+.fc .fc-timegrid-slot-minor {
+  border-top-style: none;
+}
+
+.fc {
+  button {
+    background-color: white;
+    color: black;
+    border: none !important;
+    outline: none !important;
+    border-color: white;
+    box-shadow: none;
+  }
+  a {
+    color: rgb(134, 134, 134);
+  }
+  a:hover {
+    font-weight: bold;
+    color: rgb(83, 83, 83);
+    cursor: pointer;
+  }
+  .fc-daygrid-day-frame {
+    cursor: pointer;
+  }
+  .fc-toolbar-title {
+    padding: 2px;
+    font-weight: lighter;
+  }
+}
+
+.fc .fc-event:hover,
+.fc .fc-event:focus,
+.fc a.fc-event:hover,
+.fc a.fc-event:focus,
+.fc a.fc-event:not([href]):hover,
+.fc a.fc-event:not([href]):focus {
+  color: black;
+}
+
+.fc-addAppointmentButton-button {
+  background: #0000FF !important;
+  color: white !important;
+}

@@ -1,0 +1,14 @@
+.file_uploader_react {
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+}
+
+.file_uploader_card_image {
+    max-height: 400px;
+    max-width: 400px;
+    object-fit: contain;
+}
+.delete_icon_file_uploader_button:hover {
+    color: red;
+}

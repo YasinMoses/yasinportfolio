@@ -1,0 +1,27 @@
+.pg-viewer-wrapper {
+    overflow-y: unset !important;
+}
+
+.photo-viewer-container {
+    width: unset !important;
+    height: unset !important;
+}
+
+.photo-viewer-container > img {
+    width: unset !important;
+    height: unset !important;
+}
+.pg-viewer-wrapper img {
+    width: 50% !important;
+}
+.MuiPaper-root, MuiPaper-elevation, MuiPaper-elevation4, MuiAppBar-root, MuiAppBar-colorPrimary, MuiAppBar-positionFixed {
+    padding-right: 0px !important;
+}
+.cHeight{
+    height: 60vh !important;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+video{
+    max-height: 390px;
+}

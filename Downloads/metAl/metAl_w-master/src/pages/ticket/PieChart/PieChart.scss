@@ -1,0 +1,273 @@
+// Variables
+// --Colors of pies
+$bug-error: #ff00d3;
+$complaint: #b854ea;
+$disconnection: #6055eb;
+$invoices: #00c5f0;
+$feature-requests: #00f2d3;
+$sales: #00f179;
+$support: #90f05c;
+$other: #facb52;
+
+// .chart-container {
+//   overflow: hidden;
+// }
+
+.custom-piechart {
+  max-width: fit-content;
+  padding: 4rem 2rem;
+  margin-left: auto;
+  margin-right: auto;
+  h2 {
+    font-size: 24px;
+    margin-bottom: 2rem;
+  }
+
+  .indicators {
+    width: 100%;
+    padding-top: 8px;
+    padding-bottom: 8px;
+     & li {
+      display: inline-block;
+      margin-left: 8px;
+      margin-right: 8px;
+      
+      & div {
+        display: inline-block;
+        width: 12px;
+        height: 12px;
+        border-radius: 20px;
+        margin-right: 4px;
+      }
+     }
+  }
+
+  .piechart {
+    width: 700px;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+
+    .piechart-top,
+    .piechart-bottom {
+      flex: 1;
+      display: flex;
+      position: relative;
+      overflow: hidden;
+
+      .pie-rest {
+        flex: 1;
+      }
+      .pie-transform {
+        position: absolute;
+        height: 700px;
+        width: 307px;
+        z-index: 10;
+      }
+    }
+    // positioning the transformed pies
+    .piechart-top {
+      border-top-left-radius: 100vmax;
+      border-top-right-radius: 100vmax;
+      .pie-transform {
+        top: 20px;
+      }
+      .pie-transform-1 {
+        right: 0;
+        transform: rotate(45deg);
+      }
+      .pie-transform-2 {
+        left: 0;
+        transform: rotate(-45deg);
+      }
+    }
+    .piechart-bottom {
+      border-bottom-left-radius: 100vmax;
+      border-bottom-right-radius: 100vmax;
+      .pie-transform {
+        top: -320px;
+      }
+      .pie-transform-1 {
+        right: -50px;
+        transform: rotate(-45deg);
+      }
+      .pie-transform-2 {
+        left: -50px;
+        transform: rotate(45deg);
+      }
+    }
+    .tickets-container {
+      position: absolute;
+      z-index: 20;
+      top: 0;
+      left: 0;
+      width: fit-content;
+      padding: 4px;
+
+      & > * + * {
+        margin-top: 4px;
+      }
+    }
+    .complaint-tickets,
+    .bug-error-tickets,
+    .other-tickets,
+    .support-tickets {
+      top: auto;
+      display: flex;
+      flex-direction: column-reverse;
+
+      & > * + * {
+        margin-bottom: 4px;
+      }
+    }
+    .complaint-tickets {
+      bottom: 55%;
+      left: 82%;
+    }
+    .bug-error-tickets {
+      bottom: 70%;
+      left: 54%;
+    }
+    .other-tickets {
+      bottom: 70%;
+      left: 23%;
+    }
+    .support-tickets {
+      bottom: 55%;
+      left: -5%;
+    }
+    .disconnection-tickets {
+      top: 55%;
+      left: 82%;
+    }
+    .invoices-tickets {
+      top: 70%;
+      left: 53%;
+    }
+    .feature-request-tickets {
+      top: 70%;
+      left: 25%;
+    }
+    .sales-tickets {
+      top: 55%;
+      left: -5%;
+    }
+
+    // Adding colors to the chart's pies and tickets containers
+    .piechart-top .pie-transform-1,
+    .complaint-tickets {
+      background-color: $complaint;
+    }
+    .piechart-top .pie-rest-2,
+    .bug-error-tickets {
+      background-color: $bug-error;
+    }
+    .piechart-top .pie-rest-1,
+    .other-tickets {
+      background-color: $other;
+    }
+    .piechart-top .pie-transform-2,
+    .support-tickets {
+      background-color: $support;
+    }
+    .piechart-bottom .pie-transform-1,
+    .disconnection-tickets {
+      background-color: $disconnection;
+    }
+    .piechart-bottom .pie-rest-2,
+    .invoices-tickets {
+      background-color: $invoices;
+    }
+    .piechart-bottom .pie-rest-1,
+    .feature-request-tickets {
+      background-color: $feature-requests;
+    }
+    .piechart-bottom .pie-transform-2,
+    .sales-tickets {
+      background-color: $sales;
+    }
+  }
+}
+
+@media screen and (max-width: 1080px) {
+  .custom-piechart {
+    .piechart {
+      width: 500px;
+      height: 500px;
+
+      .piechart-top,
+      .piechart-bottom {
+        .pie-transform {
+          height: 500px;
+          width: 207px;
+        }
+      }
+
+      .piechart-top {
+        .pie-transform {
+          top: 0;
+        }
+      }
+      .piechart-bottom {
+        .pie-transform {
+          top: -200px;
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 570px) {
+  .custom-piechart {
+    padding: 4rem 0.5rem;
+    .piechart {
+      width: 300px;
+      height: 300px;
+
+      .piechart-top,
+      .piechart-bottom {
+        .pie-transform {
+          height: 300px;
+        }
+      }
+
+      .piechart-top {
+        .pie-transform {
+          top: 50px;
+        }
+        .pie-transform-1 {
+          right: -50px;
+        }
+        .pie-transform-2 {
+          left: -50px;
+        }
+      }
+    }
+  }
+}
+
+.div__info{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+  gap: 1.5rem;
+  // .div__info__{
+  //   width: 20px ;
+  //   height: 20px;
+  //   border-radius: 50%;
+  //   margin-right: 0.5rem;
+  // }
+  .div__info__item__color{
+    width: 20px !important;
+    height: 20px !important;
+    border-radius: 50% !important;
+    margin-right: 0.5rem !important;
+    align-items: center;
+    justify-content: center;
+  }
+  .div__info__text{
+    font-size: 14px;
+  }
+}

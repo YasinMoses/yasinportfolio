@@ -1,0 +1,41 @@
+@import "https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700";
+@import "https://cdnjs.cloudflare.com/ajax/libs/nvd3/1.8.1/nv.d3.min.css";
+@import "https://unpkg.com/ionicons@4.2.2/dist/css/ionicons.min.css";
+
+/* .react-calendar__month-view__days__day--weekend {
+  color: red !important;
+} */
+
+#root {
+  min-height: 100vh;
+}
+.chonky-toolbarRight {
+  flex-wrap: wrap !important;
+}
+
+.MuiButtonBase-root {
+  margin: 2px !important;
+  padding: 5px !important;
+}
+
+.form-group {
+  border-bottom: 1px solid #e4e7ea !important;
+}
+.full-calender::-webkit-scrollbar {
+  display: none;
+}
+
+.itsSunday {
+  color: red !important;
+}
+.fc .fc-toolbar.fc-header-toolbar {
+  z-index: 3;
+  top: 0;
+  position: sticky;
+}
+
+.fc .fc-event {
+  border: none;
+  font-weight: 600;
+  border-radius: 0;
+}

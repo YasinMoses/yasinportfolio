@@ -1,0 +1,12 @@
+.fc-event {
+  background-color: green;
+}
+.custom-event {
+  padding: 5px;
+  border-radius: 3px;
+}
+
+.fc-list-event-time{
+  background-color: white;
+  color: black;
+}

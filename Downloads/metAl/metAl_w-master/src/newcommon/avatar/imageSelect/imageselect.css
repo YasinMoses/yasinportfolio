@@ -1,0 +1,8 @@
+.image_select_styling {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 30px;
+    width:100%;
+    padding: 5px;
+}

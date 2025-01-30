@@ -1,0 +1,28 @@
+const defaultTheme = {
+  height: '20px',
+  border: '1px solid #dfe1e5',
+  borderRadius: '24px',
+  backgroundColor: 'white',
+  boxShadow: 'rgba(32, 33, 36, 0.28) 0px 1px 6px 0px',
+  hoverBackgroundColor: '#eee',
+  color: '#212121',
+  fontSize: '14px',
+  iconColor: 'grey',
+  lineColor: 'rgb(232, 234, 237)',
+  placeholderColor: 'grey',
+  zIndex: 0,
+  clearIconMargin: '0',
+  searchIconMargin: '0'
+}
+
+const defaultFuseOptions = {
+  shouldSort: true,
+  threshold: 0.6,
+  location: 0,
+  distance: 100,
+  maxPatternLength: 32,
+  minMatchCharLength: 1,
+  keys: ['name']
+}
+
+export { defaultTheme, defaultFuseOptions }
